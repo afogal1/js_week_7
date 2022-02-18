@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Poster Project</title>
+    <link rel="stylesheet" href="/day_4/css/main.css">
+    <script src="/day_4/js/main.js" defer></script>
+</head>
+<body>
+    <!-- Start of Poster Container -->
+    <div class="container">
+        <button onclick="stopSnippet()">Stop Song</button>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="getSong(this.id,event)">
+                <img src="images/Back_to_the_futre.jpeg" alt="Easy" class="gallery__img"></figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="getSong(this.id,event)">
+                <img src="images/Mulan.jpeg" alt="Get Low" class="gallery__img"></figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="getSong(this.id,event)">
+                <img src="images/Grimsby.jpeg" alt="don't Stop believin'" class="gallery__img"></figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="getSong(this.id,event)">
+                <img src="images/Dora.jpeg" alt="Peanut Butter Jelly Time" class="gallery__img"></figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="getSong(this.id,event)">
+                <img src="images/squidward.jpeg" alt="SpongeBob Theme Song" class="gallery__img"></figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="getSong(this.id,event)">
+                <img src="images/The_Shinning.jpeg" alt="Dies Irae" class="gallery__img"></figure>
+        </div>
+    </div>
+</body>
+</html>
